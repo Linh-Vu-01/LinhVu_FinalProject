@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{ 
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+}
+/*---NAV BAR---*/
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color:#b07070;
+}
+#logo{
+    width: 100px;
+    height: fit-content;
+}
+h1, nav{
+    flex: 1;
+}
+h1{
+    font-size: 2.5rem;
+    color:#fdefe3;
+    margin-left: 20px;
+}
+ul{
+    list-style-type: none;
+    text-align: right;
+    margin-top: 40px;
+}
+li{
+    display: inline;
+}
+a{
+    margin: 0px 20px;
+    text-decoration: none;
+    color:#fdefe3;
+}
+a:hover{
+    border-bottom: 1px dashed;
+    color:black; 
+}
+/*---HOME---*/
+.hero{
+    width: 100%;           
+    height: 500px;         
+    overflow: hidden;     
+    position: relative;
+    margin: 0;
+}
+#tea{
+    width: 100%;       
+    height: 100%;          
+    object-fit: cover;     
+    object-position: center;
+}
+h2{
+    font-size: 2.5rem;
+    color:#b07070;
+    text-align: center;
+}
+#introduction{
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 20px;
+    background-color:#f8d2c9;
+}
+.gallery{
+    text-align: center;
+    margin: 50px 0;
+}
+.gallery img{
+    height: 320px;
+    object-fit: cover;
+    margin: 0 10px;
+    border-radius: 20px;
+}
+.invitation{
+    margin-top: 20px;
+    padding: 50px 0;
+    background-color:#f8d2c9;
+}
+h3{
+    font-size: 1.8rem;
+    color:#b07070;
+    text-align: center;
+}
+#invite{
+    text-align: center;
+}
+#order{
+    font-size: 1rem;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    color:#fdefe3;
+    background-color:#b07070;
+}
+#order:hover{
+    color:#b07070;
+    background-color:#fdefe3;
+}
+/*---ABOUT---*/
+.about-intro{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 100px;
+}
+#cake{
+    width: 500px;
+    height: fit-content;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+.information{
+    max-width: 650px;
+}
+#about{
+    max-width: 550px;
+    margin: 0 auto;
+}
+.offer{
+    padding: 50px 0;
+    background-color:#f8d2c9;
+}
+.offer-menu{
+    display: flex;
+    justify-content: space-around;
+}
+#menu-pastry, #menu-dessert, #menu-drink{
+    max-width: 300px;
+}
+figcaption{
+    max-width: 300px;
+    text-align: center;
+}
+/*---MENU---*/
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+#menu-gallery{
+    display: block;
+    margin: 0 20px;
+    max-height: 500px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+.options{
+    text-align: center;
+    margin-bottom: 50px;
+}
+button {
+    margin-top: 20px;
+    padding: 12px;
+    border-radius: 12px;  
+    border: none;
+    color:#fdefe3;
+    background-color:#b07070;
+}
+button:hover{
+    color:#b07070;
+    background-color:#f8d2c9;
+}
+.description{
+    width: 650px;
+    height: 500px;
+    margin: 0 20px;
+    padding: 50px;
+    border-radius: 20px;
+    background-color:#f8d2c9;
+}
+#menuname{
+    text-align: center;
+    margin: 0;
+}
+#details{
+    font-size: 1.2rem;
+    max-width: 420px;
+    margin: 20px auto;
+}
+.pastry{
+    #pastry{
+        color:#b07070;
+        background-color:#f8d2c9;
+    }
+}
+.dessert{
+    #dessert{
+        color:#b07070;
+        background-color:#f8d2c9;
+    }
+}
+.drink{
+    #drink{
+        color:#b07070;
+        background-color:#f8d2c9;
+    }
+}
+/*---CONTACT---*/
+.contact{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+}
+#milk-tea{
+    max-width: 600px;
+    height: fit-content;
+    margin: 0 20px;
+    border-radius: 20px;
+}
+.contact-form{
+    margin: 0 20px;
+}
+#get-in-touch{
+    text-align: left;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+input{
+    height: 40px;
+}
+#send{
+    max-width: 60px;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 12px;
+    border: none;
+    background-color:#b07070;
+}
+#send:hover{
+    color:#b07070;
+    background-color:#f8d2c9;
+}
+.contact-information{
+    background-color: #f8d2c9;
+    padding: 50px 0;
+}
+#contact-us{
+    margin: 0;
+}
+.contact-details{
+    display: flex;
+    justify-content: space-around;
+}
+.hours{
+    display: grid;
+    text-align: left;
+}
+/*---FOOTER---*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #b07070;
+}
+#copyright{
+    padding-top: 15px;
+}
+#facebook, #instagram, #tiktok{
+    width: 40px;
+}
+#facebook:hover, #instagram:hover, #tiktok:hover{
+    background-color:#fdefe3;
+    border-radius: 20px;
+}
+/*---RESPONSIVENESS---*/
+@media (max-width: 1348px){
+    .gallery img{
+        max-height: 220px;
+    }
+    .information{
+        margin-left: 50px;
+    }
+    #cake{
+        max-width: 400px;
+        height: fit-content;
+        align-self: center;
+    }
+    #menu-pastry, #menu-dessert, #menu-drink{
+        max-width: 250px;
+    }
+    figcaption{
+        max-width: 250px;
+        text-align: center;
+    }
+    #milk-tea{
+        max-height: 400px;
+        align-self: center;
+    }
+    form{
+        width: 400px;
+    }
+}
+
+@media (max-width: 982px){
+    .navigation ul{
+        display: flex;
+        flex-direction: column;
+    } 
+    .gallery{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .gallery img{
+        max-height: 320px;
+        width: fit-content;
+        margin: 10px 0;
+    }
+    .about-intro{
+        margin: 50px 20px;
+    }
+    #cake{
+        max-width: 300px;
+        height: fit-content;
+        align-self: center;
+    }
+    .offer-menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #menu-pastry, #menu-dessert, #menu-drink{
+        max-width: 200px;
+    }
+    figcaption{
+        max-width: 200px;
+        text-align: center;
+    }
+    #menu-gallery{
+        max-height: 300px;
+    }
+    .description{
+        max-height: 300px;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    form{
+        max-width: 800px;
+    }
+}
+
+@media (max-width: 650px){
+    .about-intro{
+        display: flex;
+        flex-direction: column;
+    }
+    #about{
+        margin: 0;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .description{
+        width: auto;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 550px){
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    .navigation ul{
+        text-align: center;
+    }
+    #introduction{
+        max-width: 400px;
+    }
+    .gallery img {
+        max-height: 250px;
+    }
+    #milk-tea{
+        max-width: 320px;
+    }
+    form{
+        width: auto;
+    }
+    .contact-details{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    footer{
+        #copyright{
+            align-self: center;
+        }
+        ol{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

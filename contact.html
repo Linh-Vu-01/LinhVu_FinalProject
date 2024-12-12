@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Evershine | Bakery Cafe</title>
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.png" alt="Evershine Logo" id="logo">
+      <h1>EVERSHINE</h1>
+      <nav class="navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>  
+        <aside class="contact">
+            <img src="images/milk-tea.jpeg" alt="Christmas Drinks" id="milk-tea">
+            <section class="contact-form">
+                <h2 id="get-in-touch">GET IN TOUCH</h2>
+                <form action="send" method="POST">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" required>
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" required>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <button id="send" type="send">Send</button>
+                </form>
+            </section>
+        </aside>
+        <aside class="contact-information">
+            <h2 id="contact-us">CONTACT US</h2>
+            <section class="contact-details">
+                <ul class="hours">
+                   <h3>Hours</h3>
+                   <li>Sunday - Thursday: 8am-10pm</li>
+                   <li>Friday - Saturday: 8am-5pm</li>
+                </ul>
+                <ul class="phone">
+                    <h3>Phone</h3>
+                    <li>(403) 123-4567</li>
+                </ul>
+                <ul class="email">
+                    <h3>Email</h3>
+                    <li>evershine.bakerycafe@gmail.com</li>
+                </ul>
+            </section>
+        </aside>
+    </main>
+
+    <footer>
+        <p id="copyright">&copy; Evershine Bakery 2024. All Rights Reserved.</p>
+        <ol>
+          <li><img src="images/facebook.png" alt="Facebook Icon" id="facebook"></li>
+          <li><img src="images/instagram.png" alt="Instagram Icon" id="instagram"></li>
+          <li><img src="images/tiktok.png" alt="TikTok Icon" id="tiktok"></li>
+        </ol>
+      </footer>
+      <script src="bakery.js"></script>
+    </body>
+  </html>
